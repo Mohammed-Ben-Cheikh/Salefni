@@ -1,11 +1,16 @@
 import { createRouter } from "router-kit";
-import Contact from "../pages/Contact";
-import Home from "../pages/Home";
+import About from "../pages/Main/About";
+import Contact from "../pages/Main/Contact";
+import Home from "../pages/Main/Home";
 
 const router = createRouter([
   {
-    path: "/:id",
+    path: ["/", "/home"],
     component: <Home />,
+  },
+  {
+    path: "/about",
+    component: <About />,
   },
   {
     path: "/contact",
