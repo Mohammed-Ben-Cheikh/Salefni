@@ -1,7 +1,5 @@
-import Home from "./pages/Home";
+import { RouterProvider } from "router-kit";
+import router from "./router";
 
-function App() {
-  return <Home />;
-}
-
+const App = () => <RouterProvider routes={router} />;
 export default App;

@@ -1,4 +1,7 @@
+import { useParams } from "router-kit";
+import MainLayout from "../../components/common/Layout/main";
 const Home = () => {
-  return <h1 className="text-red-600">test</h1>;
+  const { id } = useParams();
+  return <MainLayout>holalala from home{id}</MainLayout>;
 };
 export default Home;
