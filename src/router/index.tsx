@@ -5,7 +5,7 @@ import Home from "../pages/Main/Home";
 
 const router = createRouter([
   {
-    path: ["/", "/home"],
+    path: ["/:step", "/home/:step"],
     component: <Home />,
   },
   {
