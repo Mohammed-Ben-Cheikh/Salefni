@@ -1,0 +1,14 @@
+{
+  "simulations": [],
+  "applications": [],
+  "notifications": [],
+  "users": [
+    {
+      "id": 1,
+      "email": "admin@salefni.com",
+      "password": "admin123",
+      "role": "admin",
+      "name": "Administrateur"
+    }
+  ]
+}
